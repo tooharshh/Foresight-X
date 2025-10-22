@@ -4,5 +4,4 @@ A collection of my lab projects and research work on earthquake early warning sy
 ## **Papers**
 
 1. A Critical Review on Leveraging Artificial Intelligence for Seismic Risk Mitigation: A Machine Learning Approach
-   - **✅ Accepted as chapter publication in LNCE, Springer**
-
+   - **Accepted for chapter publication in LNCE, Springer**
