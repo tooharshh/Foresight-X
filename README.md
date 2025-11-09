@@ -8,7 +8,7 @@ A collection of my lab projects and research work on earthquake early warning sy
   
 ## **Projects**
 
-1. Prediction of Earthquake magnitudes through a Random Forest regression model
+1. MARF (Magnitude Assesment - Random Forest)
    - **Achieved a R² score = 0.83 with RMSE of 0.51 magnitude units.**
    - **Identified and resolved data leakage from the 'significance' feature (0.957 correlation)**
    - **Reduced overfitting (R² = 0.9996) using regularization techniques(max depth limiting, minimum sample constraints).**
