@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Major Events - Earthquake Dashboard{% endblock %}
+
+{% block content %}
+<div class="map-container">
+    <iframe src="{{ url_for('static', filename='maps/major_earthquakes.html') }}" frameborder="0"></iframe>
+</div>
+{% endblock %}

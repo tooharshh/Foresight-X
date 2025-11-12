@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="hero">
+        <h2>Indian Seismic Activity Analysis</h2>
+        <p>Explore earthquake data from the National Center of Seismology</p>
+    </div>
+    
+    <div class="stats-grid">
+        <div class="stat-card">
+            <h3>Total Events</h3>
+            <p class="stat-number">{{ total_events }}</p>
+        </div>
+        <div class="stat-card">
+            <h3>Maximum Magnitude</h3>
+            <p class="stat-number">{{ "%.1f"|format(max_magnitude) }}</p>
+        </div>
+        <div class="stat-card">
+            <h3>Average Magnitude</h3>
+            <p class="stat-number">{{ "%.2f"|format(avg_magnitude) }}</p>
+        </div>
+        <div class="stat-card">
+            <h3>Most Recent Event</h3>
+            <p class="stat-text">{{ recent_event }}</p>
+        </div>
+    </div>
+    
+    <div class="action-grid">
+        <a href="/all-events" class="action-card">
+            <h3>All Earthquakes</h3>
+            <p>View complete dataset on interactive map</p>
+        </a>
+        <a href="/major-events" class="action-card">
+            <h3>Major Events</h3>
+            <p>Earthquakes with magnitude ≥ 5.0</p>
+        </a>
+        <a href="/timeline" class="action-card">
+            <h3>Timeline View</h3>
+            <p>Temporal analysis of seismic events</p>
+        </a>
+    </div>
+</div>
+{% endblock %}
