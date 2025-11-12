@@ -22,3 +22,8 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Large Data Files
+*.csv
+!Shakelytics/earthquake_data.csv
+MARF/Eartquakes-1990-2023.csv
